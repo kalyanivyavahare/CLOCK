@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.maindiv{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("https://t3.ftcdn.net/jpg/03/58/79/66/360_F_358796655_1Zoe4oyLOoE7lL4izOvy8DvCP0xypYgg.jpg");
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+.contaner{/*
+https://1.bp.blogspot.com/-9RirrUIOnp4/X0oId5Q5MVI/AAAAAAAAA2E/0voDcIoQO-Iu0n61eIQ36uGLx_knPbFvwCLcBGAsYHQ/s1600/Digital%2BClock%2Bwith%2BColorful%2BGlowing%2BEffect%2Busing%2BHTML%2BCSS%2B%2526%2BJavaScript.webp*/
+height: 100px;
+	width: 250px;
+	box-shadow: 0px 0px 20px grey;
+	border-radius: 30px;
+	margin-right: 800px;
+	margin-top: -0.5px;
+	margin-bottom: 450px;
+	background-image: url(" https://static.vecteezy.com/system/resources/previews/023/380/571/large_2x/clock-and-clock-gears-in-space-futuristic-abstract-background-vibrant-colors-illustration-time-and-universe-concept-ai-generated-photo.jpg");
+background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+}
+.heading{
+	margin-top: 33px;
+	color: papayawhip;
+	font-size: 50px;
+    margin-top: 20px;	
+}
+.flicker-1 {
+	-webkit-animation: flicker-1 1s linear infinite both;
+	        animation: flicker-1 1s linear infinite both;
+}
+
+@-webkit-keyframes flicker-1 {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  41.99% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0;
+  }
+  43% {
+    opacity: 0;
+  }
+  43.01% {
+    opacity: 1;
+  }
+  47.99% {
+    opacity: 1;
+  }
+  48% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  49.01% {
+    opacity: 1;
+  }
+}
+@keyframes flicker-1 {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  41.99% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0;
+  }
+  43% {
+    opacity: 0;
+  }
+  43.01% {
+    opacity: 1;
+  }
+  47.99% {
+    opacity: 1;
+  }
+  48% {
+    opacity: 0;
+  }
+  49% {
+    opacity: 0;
+  }
+  49.01% {
+    opacity: 1;
+  }
+}
+
+ 
